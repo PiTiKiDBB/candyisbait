@@ -1,0 +1,138 @@
+body{
+	background-color: #071608;
+	margin: 0px;
+	font-family: verdana, Georgia, serif;
+	font-size: 14px;
+}
+#header{
+	background-color: #0f2d11;
+	margin-top: 3px;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-bottom: 0px;
+	height: 90px;
+}
+#navbr{
+	background-color: #0f2d11;
+	margin-bottom: 0;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 0px;
+	height: 40px;
+	border-style: solid;
+	border-width: 3px;
+	border-ottom-right-radius: 20px;
+	border-bottom-left-radius:  20px;
+	border-color: #000000;
+	font-size: 20%;
+}
+#navbr ul{
+	list-style-type: none;
+	padding-right: 70px;
+	padding-left: 70px;
+	text-align: center;
+	margin: 6px;
+}
+#navbr ul li{
+	display: inline;
+}
+#navbr ul li a{
+	text-decoration: none;
+	font-family: Arial;
+	color: #15b503;
+	padding: .1em 2em;
+	font-size: 23px;
+	text-shadow: 3px 3px 3px black;
+}
+#navbr ul li a:hover{
+	background-color: #071608;
+}
+.main{
+	background-color: #000000;
+    margin-top: 10px;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+	border-radius: 5px;
+	padding: 20px;
+	padding-left: 50px;
+	padding-right: 50px;
+	font-size: 127%;
+	color: #15b503;
+	border-bottom-right-radius: 25px;
+	border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+}
+h1{
+	text-align: left;
+	padding-left: 50px;
+}
+h3{
+	font-size: 250%;
+	text-align: center;
+	color
+}
+#footor{
+	background-color: #0f2d11;
+	height: 60px;
+	margin-bottom: 0;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-top:	10px;
+	border-top-right-radius: 25px;
+	border-top-left-radius:  25px;
+	color: #15b503;
+	padding: 15px;
+	text-align: center;
+	font-size: 90%;
+}
+#footer ul{
+	list-style-type: none;
+	padding-right: 100px;
+	padding-left: 100px;
+	text-align: center;
+	margin: 2px;
+}
+#footer ul li{
+	display: inline;
+}
+#footer ul li a{
+	text-decoration: none;
+	font-family: Arial;
+	color: #15b503;
+	padding: .1em 2em;
+	font-size: 15px;
+	text-shadow: 1px 1px 1px black;
+}
+#footer ul li a:hover{
+	background-color: #071608;
+}
+img{
+	max-height: 100%;
+	max-width: 100%;
+}
+
+
+
+
+bubblegum {
+           height:50px;
+           min-width:400px;
+           display:inline-block;
+           position:relative;
+    }
+    btext{
+         position:absolute;
+         bottom:0;
+         -webkit-animation:bounce 1s infinite;
+         animation:bounce 1s infinite;
+         font-size:30px;
+         text-transform:uppercase;
+    }
+    @-webkit-keyframes bounce {
+       %       { bottom:5px; }
+      25%, 75% { bottom:15px; }
+      50%      { bottom:20px; }
+      100%     {bottom:0;}
+    }
